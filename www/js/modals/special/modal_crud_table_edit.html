@@ -1,0 +1,55 @@
+<style type="text/css">
+    #modal-input-text {
+        border: medium none;
+        border-radius: 0;
+        box-shadow: 0 -1px 0 #ddd inset;
+        font-size: 16px;
+        padding: 0;
+    }
+
+    #modal-input-text:focus{
+        box-shadow: 0 -2px 0 #2196f3 inset;
+    }
+
+    #modal-input input, select{
+        color:black;
+        width:90%;
+        height:25px;
+        font-size: 16px;
+    }
+
+    .modal-body{
+        height: auto;
+    }
+
+    .modal-footer{
+        display: block !important;
+    }
+
+    @media (min-width: 768px) {
+        .modal-xl {
+            width: 98%;
+            max-width:1600px;
+        }
+    }
+
+</style>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="gridSystemModalLabel_crud_table" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Title</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body" id="modal-input">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal" id="modal-crud-table-ok-btn" style="float:left">Save</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="modal-crud-table-abort-btn" style="float:right">Abort</button>
+                <button type="button" class="btn btn-warning" data-dismiss="modal" id="modal-crud-table-delete-btn" style="float:right">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<span *ngIf="links">
+    <span *ngFor="let link of links">
+        <span *ngIf="!link.hiddenstartpage">
+        <app-standard [LINK]=link.link></app-standard>
+        </span>
+    </span>
+</span>

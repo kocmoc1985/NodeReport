@@ -1,0 +1,60 @@
+<span *ngIf="article">
+
+    <span *ngIf="article.custom">
+
+        <div class="container-fluid">
+
+            <span *ngIf="lang === 'swe' || !lang || !article.contenteng">
+                <span *ngIf="article.css" [innerHTML]="(article.css + '' + article.content) | safeHtml"></span>
+                <span *ngIf="!article.css" [innerHTML]="(article.content) | safeHtml"></span>
+            </span>
+
+            <span *ngIf="lang === 'eng'">
+                <span *ngIf="article.css" [innerHTML]="(article.css + '' + article.contenteng) | safeHtml"></span>
+                <span *ngIf="!article.css" [innerHTML]="(article.contenteng) | safeHtml"></span>
+            </span>
+
+        </div>
+
+    </span>
+
+    <span *ngIf="!article.custom">
+
+        <div class="container" *ngIf="lang === 'swe' || !lang || !article.contenteng">
+            <div class="row">
+                <div class="col-9">
+                    <h1>{{article.title}}</h1>
+                </div>
+                <div class="col-9" *ngIf="article.image">
+                    <img class='standard-article-img' src="images/{{article.image}}">
+                </div>
+                <div class="col-9">
+                    <div [innerHTML]="article.content | safeHtml"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container" *ngIf="lang === 'eng' && article.contenteng">
+
+            <div class="row">
+                <div class="col-9">
+                    <h1>{{article.titleeng}}</h1>
+                </div>
+                <div class="col-9" *ngIf="article.image">
+                    <img class='standard-article-img'  src="images/{{article.image}}">
+                </div>
+                <div class="col-9">
+                    <div [innerHTML]="article.contenteng | safeHtml"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </span>
+
+</span>
+
+
+

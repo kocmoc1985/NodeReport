@@ -1,0 +1,32 @@
+[
+    {
+        "basicroute": "/rest/content/",
+        "get": "1",
+        "post": "2",
+        "put": "2",
+        "delete": "3"
+    },
+    {
+        "basicroute": "/rest/article/",
+        "get": "1",
+        "post": "2",
+        "put": "2",
+        "delete": "3"
+    },
+    {
+        "basicroute": "/rest/accounts/",
+        "get": "1",
+        "post": "3",
+        "put": "3",
+        "delete": "3"
+    },
+    {
+        "basicroute": "/rest/access/",
+        "get": "1",
+        "post": "3",
+        "put": "3",
+        "delete": "3"
+    }
+
+
+]

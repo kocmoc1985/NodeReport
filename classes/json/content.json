@@ -1,0 +1,21 @@
+[
+    {
+        "link": "startpage",
+        "serial": "a_0",
+        "content": "<img class='start-page-img' src='images/q2d-main-page-img.png'> \n\n <h1>Ett nytt sätt att göra er verksamhet <small>mobil</small></h1> \n\n <h3>Snabbt, användarvänligt, säkert och kostnadseffektivt</h3> \n\n <h4>Nästa kurstillfälle 17/5 2017 : <a href='/article/sap'>Utbildning i modern applikationsutveckling</a></h4> \n\n ",
+        "css":"<style type='text/css'> \n\n .start-page-img{ \n float:right; \n} \n </style>",
+        "notes": ""
+    },
+    {
+        "link": "utbildning",
+        "serial": "a_1",
+        "content": "<h3>Workshop Halvdag workshop (ca 4 Timmar)</h3>\n\n <p>Vi håller en workshop under en halvdag.</p> \n\n  <p>Under den här sessionen kommer vi att presentera de olika möjligheterna med modern webbteknik och integration. Som deltagare får du en förståelse för hur moderna applikationer byggs upp i flera lager med möjlighet till koppling eller drift i molnet. Arkitektur och teknik matchas sedan med 1 konkret behov från verksamheten, som sedan används som tema för workshopen.</p>\n\n <p>Målet för deltagarna är att få en introduktion till ny teknik och nya arbetsmetoder som öppnar helt nya möjligheter och snabba resultat. Inga särskilda kunskaper i programmering krävs.</p>\n\n <p>Användargränssnittet bygger på “Single Page Application” (SPA) och vi använder främst AngularJS för att strukturera webbapplikationen.</p>\n\n <p>För backend sätter vi upp en enkel webbserver i NodeJS där vi kan skapa exakt de API som behövs för att modellera fram användarupplevelsen.</p>\n\n <p>Max 10 deltagare<br> Pris: 6.000 SEK</p>",
+        "notes": ""
+    },
+    {
+        "link": "utbildning",
+        "serial": "a_2",
+        "content": "<h2>Heldag Workshop (ca 8 timmar)</h2> \n\n <img src='images/edu_a_2.jpg' style='float:right'> \n\n <p>Under den här dagen kommer vi att presentera de olika möjligheterna med modern webbteknik och integration. Som deltagare får du en djupare förståelse hur moderna applikationer byggs upp i flera lager, med möjlighet till koppling eller drift i molnet.</p> \n\n <p>Arkitektur och teknik matchas sedan med upp till 3 konkreta behov i er egen verksamhet. Innan dagen är slut kommer minst en applikation vara designad och användbar som till exempel prototyp eller proof of concept. </p> \n\n <p>En workshop kan följas upp av flera, om denna arbetsform passar just er organisation.</p> \n\n <p>Målet för deltagarna är att få en introduktion till ny teknik och nya arbetsmetoder som öppnar helt nya möjligheter och snabba resultat. Förkunskaper i programmering är en fördel för att aktivt kunna deltaga i arbetet men inte ett krav.</p> \n\n <p>Användargränssnittet bygger på “Single Page Application” (SPA) och vi använder främst AngularJS för att strukturera webbapplikationen.</p> \n\n <p>För backend sätter vi upp en webbserver i ASP.NET och fördjupar oss i säkerhet och modellering kring API.</p> \n\n",
+        "notes": ""
+    }
+]

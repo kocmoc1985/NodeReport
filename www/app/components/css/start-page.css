@@ -1,0 +1,55 @@
+:host /deep/ .startpage {
+	/* background-color: #e6e6e6; */
+	background-color: #090909;
+	/* background: url(images/white-mountain.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color:black;
+	width:100%; */
+    min-height:67vh;
+    padding: 0;
+}
+
+:host /deep/ .frontpage-content {
+	color:white;
+
+	text-align: center;
+	font-size:32px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+:host /deep/ .frontpage-carousel {
+	background-color: #090909;
+	padding:0;
+	margin:0;
+}
+
+:host /deep/ .carousel {
+	min-height: 517px;
+	max-height:517px;
+	height:100%;
+}
+
+:host /deep/ .img-fluid {
+	max-height:400px;
+	display:block;
+    margin:auto;
+}
+
+:host /deep/ .carousel-item {
+	text-align: center;
+}
+
+:host /deep/ .btn-primary {
+	background-color: red;
+	border:none;
+}
+
+@media screen and (max-width: 992px) {
+	:host /deep/ .carousel {
+	min-height:400px;
+	height:100%;
+}
+}

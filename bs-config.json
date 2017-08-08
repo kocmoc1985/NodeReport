@@ -1,0 +1,8 @@
+{
+  "server": {
+    "baseDir": "www",
+    "routes": {
+      "/www": "www"
+    }
+  }
+}

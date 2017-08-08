@@ -1,0 +1,100 @@
+/* header {
+	border-bottom: 2px solid #0094d9;
+} */
+
+.container-fluid {
+	padding:0;
+}
+
+.navbar {
+	color:white;
+	background-color: transparent;
+}
+
+.nav-link, .navbar-brand {
+	color:white;
+	border-bottom:2px solid transparent;
+}
+
+.nav-link:hover {
+	border-bottom:2px solid white;
+}
+
+.fa-bars {
+	color:white;
+}
+
+.fa-home {
+	color:white;
+}
+
+.navbar-col{
+    padding: 0;}
+
+p {
+	margin:0;
+}
+
+#q2d_logo {
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+	padding:5px 0 10px 5px;
+}
+
+.logo-img {
+	width:100%;
+	/* text-align: center; */
+}
+
+.title-info {
+	width:100%;
+	margin:0;
+	color:white;
+	/* text-align: center; */
+	font-family: 'Orbitron', sans-serif;
+	font-size: 35px;
+}
+
+.logo-back {
+	width:100%;
+	padding: 0;
+	margin:0;
+	background-color: #090909;
+}
+
+.fa-envelope-o {
+	color:white;
+	font-size: 3.5vmax;
+}
+
+#mail {
+	max-width: 50px;
+	width: 100%;
+	height:auto;
+}
+
+.mail-icon {
+	position: absolute;
+	right:0;
+	top:1px;
+	padding-right: 11px;
+}
+
+.mail-icon:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+	.mail-icon, #mail {
+		display: none;
+	}
+
+	.title-info {
+		display:none;
+	}
+
+	.logo-img {
+		text-align: center;
+	}
+}

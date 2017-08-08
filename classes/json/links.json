@@ -1,0 +1,21 @@
+[
+    {
+        "link": "remix",
+        "nickname": "ReMix",
+        "serial": "0",
+        "other": ""
+    },
+    {
+        "link": "utbildning",
+        "nickname": "Utbildning",
+        "serial": "1",
+        "other": ""
+    },
+    {
+        "link": "lorawan",
+        "nickname": "LoraWan",
+        "serial": "2",
+        "other": ""
+    }
+
+]

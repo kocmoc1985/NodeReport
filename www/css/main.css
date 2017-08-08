@@ -1,0 +1,75 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page{
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+app-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+/*h1  {
+    font-family: 'Parisienne', cursive;
+    color: #F56E26;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+    }
+
+h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vertical-spacer-32{
+    height: 32px;
+}
+
+.vertical-spacer-50 {
+    height: 50px;
+}
+
+.vertical-spacer-60 {
+    height: 60px;
+}
+
+.vertical-spacer-80 {
+    height: 80px;
+}
+
+.vertical-spacer-100 {
+    height: 100px;
+}
+
+.bg-light-grey{
+    background-color: #cccccc;
+}
+
+a {
+    color: #384260;
+}
+
+.bg-trans{
+    background: rgba(85, 181, 152, 0.8);
+}*/

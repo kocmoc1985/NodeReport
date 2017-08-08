@@ -1,0 +1,8 @@
+/node_modules
+/www/css/all.css
+/www/node_modules
+*.js.map
+/www/app/components/*.js
+/www/app/components/main/*.js
+/www/app/components/rest/*.js
+nbproject

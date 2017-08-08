@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build:watch' ]
+2 info using npm@3.8.6
+3 info using node@v5.12.0
+4 verbose run-script [ 'prebuild:watch', 'build:watch', 'postbuild:watch' ]
+5 info lifecycle NodeReport@0.0.1~prebuild:watch: NodeReport@0.0.1
+6 silly lifecycle NodeReport@0.0.1~prebuild:watch: no script for prebuild:watch, continuing
+7 info lifecycle NodeReport@0.0.1~build:watch: NodeReport@0.0.1
+8 verbose lifecycle NodeReport@0.0.1~build:watch: unsafe-perm in lifecycle true
+9 verbose lifecycle NodeReport@0.0.1~build:watch: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\xampp\htdocs\NodeReport\node_modules\.bin;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\xampp\htdocs\NodeReport\node_modules\.bin;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\MinGW\bin;C:\MinGW\MSYS\1.0\bin;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Java\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Documents and Settings\KOCMOC\Application Data\npm
+10 verbose lifecycle NodeReport@0.0.1~build:watch: CWD: C:\xampp\htdocs\NodeReport
+11 silly lifecycle NodeReport@0.0.1~build:watch: Args: [ '/d /s /c', 'tsc -p www/app -w' ]
+12 silly lifecycle NodeReport@0.0.1~build:watch: Returned: code: 4294967295  signal: null
+13 info lifecycle NodeReport@0.0.1~build:watch: Failed to exec build:watch script
+14 verbose stack Error: NodeReport@0.0.1 build:watch: `tsc -p www/app -w`
+14 verbose stack Exit status 4294967295
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at EventEmitter.emit (events.js:185:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:100:13)
+14 verbose stack     at ChildProcess.emit (events.js:185:7)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid NodeReport@0.0.1
+16 verbose cwd C:\xampp\htdocs\NodeReport
+17 error Windows_NT 5.1.2600
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build:watch"
+19 error node v5.12.0
+20 error npm  v3.8.6
+21 error code ELIFECYCLE
+22 error NodeReport@0.0.1 build:watch: `tsc -p www/app -w`
+22 error Exit status 4294967295
+23 error Failed at the NodeReport@0.0.1 build:watch script 'tsc -p www/app -w'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the NodeReport package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     tsc -p www/app -w
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs NodeReport
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls NodeReport
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

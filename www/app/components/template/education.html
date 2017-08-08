@@ -1,0 +1,22 @@
+<a name="education"></a> <!-->#ANCHOR<-->
+
+<div class="education page">
+
+    <div class="container-fluid" *ngIf="content">
+
+        <span *ngFor="let entry of content">
+
+            <span *ngIf="!entry.hidden">
+
+                <span *ngIf="entry.css" [innerHTML]="(entry.css + '' + entry.content) | safeHtml"></span>
+
+                <span *ngIf="!entry.css" [innerHTML]="(entry.content) | safeHtml"></span>
+                
+            </span>
+
+        </span>
+
+
+    </div>
+
+</div>

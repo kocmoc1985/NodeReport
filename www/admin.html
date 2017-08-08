@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script onerror="linkNotFound(this)" src="js/external/jquery-1.9.1.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--script>#ACE ACE-EDITOR ACE EDITOR<script-->
+        <script onerror="linkNotFound(this)" src="js/external/ace/ace.js"></script>
+
+        <script onerror="linkNotFound(this)" src="js/moduls/ViewPortWH.js"></script>
+
+        <script onerror="linkNotFound(this)" src="js/moduls/ScrollTopController.js"></script>
+        <script onerror="linkNotFound(this)" src="js/moduls/MyCrudTable.class.js"></script>
+        <script onerror="linkNotFound(this)" src="js/moduls/MyCrudTableAceEditor.class.js"></script>
+
+        <script src="js/modals/MyModals.class.js"></script>
+        <script src="js/modals/special/MyModalsCrud.class.js"></script>
+        <script src="js/moduls/REST.class.js"></script>
+        <script src="js/globals.js"></script>
+        <script src="js/test/test_crud_table.js"></script>
+
+        <!--script src="js/globals.js"></script-->
+
+        <!--link onerror="linkNotFound(this)" rel="stylesheet" href="css/slate-theme.min.css"-->
+
+
+    </head>
+    <body style="padding:10px;">
+        <input id="post-btn" type="button" value="POST">
+        <input id="get-btn" type="button" value="GET">
+        <input id="get-options-btn" type="button" value="GET-OPTIONS">
+        <input id="put-btn" type="button" value="PUT">
+        <input id="delete-btn" type="button" value="DELETE"><br><br>
+
+        <input id="login-admin-btn" type="button" value="LOGIN AS ADMIN">
+        <input id="logout-btn" type="button" value="LOGOUT">
+        <input id="check-session-btn" type="button" value="CHECK SESSION"><br><br>
+
+        <input id="showCrudTableStartpage" type="button" value="STARTPAGE">
+        <input id="showCrudTableUtbildning" type="button" value="UTBILDNING">
+        <input id="showCrudTableLoraWan" type="button" value="LORAWAN">
+        <input id="showCrudTableArticles" type="button" value="ARTICLES">
+        <input id="showCrudTableContentAll" type="button" value="CONTENT ALL"><br><br>
+
+        <input id="showCrudTableLogin" type="button" value="ACCOUNTS">
+        <input id="showCrudTableAccess" type="button" value="ACCESS">
+
+        <!--div id="editor" style="width:100%; min-height:50%;">
+            <script type="text/plain" style="display: block;" id="ace-1">
+                <a href="test.html">hello world</a>
+            </script> 
+        </div>
+
+        <script>
+            var editor = ace.edit("editor");
+            editor.setTheme("ace/theme/monokai");
+            editor.getSession().setMode("ace/mode/html");
+        </script-->
+
+
+        <pre id="output" style="min-width:800px; min-height: 300px;margin-top: 20px;border: 1px solid black;"></pre>
+    </body>
+</html>

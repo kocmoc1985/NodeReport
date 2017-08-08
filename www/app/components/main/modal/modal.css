@@ -1,0 +1,75 @@
+/*@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');*/
+
+h2 {
+	color: #F5F5F5;
+}
+
+p {
+	color: #F5F5F5;
+	padding-left: 17px;
+}
+
+
+.modal-header {
+	background-color: #202B30;
+	border-bottom: #202B30;
+}
+.modal-body {
+	background-color: #202B30;
+}
+
+.modal-footer {
+	background-color: #202B30;
+	border-top: #202B30;
+}
+
+.form-control {
+	border-radius: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: 'EB Garamond', serif;
+    color: #fafafa;
+}
+
+button {
+	border-radius: 0;
+	margin-right: 6px;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	color: #202B30;
+	border: none;
+	cursor: pointer;
+
+}
+
+input {
+	width: 100%;
+}
+
+.form-control > input:text {
+    border-radius: 0;
+    font-family: 'roboto', sans-serif;
+    background: #4FA9B8;
+    color: #fafafa;
+}
+
+
+.shut-down {
+	position: absolute;
+	top: 0;
+	right: 18px;
+	color: #fff;
+	background: none;
+	border: 0;
+	font-size: 20px;
+}
+
+.btn-info {
+	background: #4FA9B8;
+}
+

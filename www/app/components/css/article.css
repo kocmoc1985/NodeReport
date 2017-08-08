@@ -1,0 +1,27 @@
+:host /deep/ p{
+    font-size: 20px;
+}
+
+
+:host /deep/ ul{
+    font-size: 20px;
+}
+
+:host /deep/ ol{
+    font-size: 20px;
+}
+
+:host /deep/ a{
+     font-size: 20px;
+}
+
+.container{
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+:host /deep/ .standard-article-img {
+	width: 100%;
+        max-height: 45vh;
+        padding: 15px 0px 15px 0px;
+}

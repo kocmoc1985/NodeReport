@@ -1,0 +1,56 @@
+<br>
+<div class="container-fluid" style="padding-left: 5px" *ngIf="accessLevel >= 1">
+    <!--input  type="button" value="LOGIN AS ADMIN" (click)="logInAsAdmin()"-->
+
+
+
+    <div class ='row'>
+        <div class ='col-2'>
+            <p>BASIC:</p>
+            <input  type="button" value="LOGOUT" (click)="logOut()">
+            <input  type="button" value="CHECK SESSION" (click)="getSession()"><br><br>
+        </div>
+
+        <div class ='offset-1 col-5'> 
+            <!--input type="button" value="STARTPAGE" (click)="showTableStartPage()"-->
+            <p>FIRST-PAGE RELATED STUFF:</p>
+            <input type="button" value="UTBILDNING" (click)="showTableUtb()">
+            <input type="button" value="REMIX" (click)="showTableRemix()">
+            <input type="button" value="LORAWAN" (click)="showTableLoraWan()">
+            <input type="button" value="ALL PAGES" (click)="showTableContentAll()">
+            <input type="button" value="LINKS" (click)="showTableLinks()"><br><br>
+        </div>
+
+        <div class ='col-1'>
+            <p>&ensp;</p>
+            <a href="manual.pdf" target="_blank">MANUAL</a>
+        </div>
+    </div>
+
+
+
+    <div class ='row'>
+        <div class ='col-2'>
+            <p>ARTICLES - STANDALONE PAGES:</p>
+            <input type="button" value="ARTICLES" (click)="showTableArticles()"><br><br>
+        </div>
+
+        <div class ='offset-1 col-4'>
+            <p>LANGUAGE RELATED:</p>
+            <input type="button" value="LANG" (click)="showTableLang()">
+            <input  type="button" value="USER INFO" (click)="showTableUserInfo()"><br><br>
+        </div>
+
+        <div class ='offset-1 col-2'>
+            <p>SECURITY & ACCESS:</p>
+            <input  type="button" value="ACCOUNTS" (click)="showTableAccounts()">
+            <input  type="button" value="ACCESS" (click)="showTableAccess()">
+
+        </div>
+    </div>
+
+    <pre id="output" style="min-width:800px; min-height: 300px;margin: 20px 5px 20px 5px;border: 1px solid black;padding: 5px;"></pre>
+</div>
+
+<h2 *ngIf="accessLevel < 1">Access denied</h2>
+

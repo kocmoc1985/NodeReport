@@ -1,0 +1,59 @@
+/*:host /deep/ .lorawan {
+	 Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,2c2c2c+50,474747+51,000000+51,111111+60,131313+100 
+	background: rgb(76,76,76);  Old browsers 
+	background: -moz-linear-gradient(-45deg,  rgba(76,76,76,1) 0%, rgba(44,44,44,1) 50%, rgba(71,71,71,1) 51%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(19,19,19,1) 100%);  FF3.6-15 
+	background: -webkit-linear-gradient(-45deg,  rgba(76,76,76,1) 0%,rgba(44,44,44,1) 50%,rgba(71,71,71,1) 51%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(19,19,19,1) 100%);  Chrome10-25,Safari5.1-6 
+	background: linear-gradient(135deg,  rgba(76,76,76,1) 0%,rgba(44,44,44,1) 50%,rgba(71,71,71,1) 51%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(19,19,19,1) 100%);  W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 );  IE6-9 fallback on horizontal gradient 
+}*/
+
+/*:host /deep/ .lorawan-title, :host /deep/ .lorawan-subtitle {
+	text-align: center;
+	margin-bottom: 25px;
+
+	color:white;
+}
+
+:host /deep/ .lorawan-info > div {
+	padding-top:30px;
+}
+
+:host /deep/ .lorawan-moreinfo {
+	background-color: #0094d9;
+	margin-bottom:15px;
+}
+
+:host /deep/ .lorawan-card {
+	min-height:700px;
+	padding:15px; 
+	 display: block;
+	margin:auto; 
+	margin-top:15px;
+	background-color:transparent;
+
+	border: 2px solid white;
+}
+
+:host /deep/ .lorawan-card-img-top {
+	height:600px;
+	width:100%;
+	border-radius: calc(.25rem - 1px);
+
+	background-color: white;
+}
+
+:host /deep/ .lorawan-card-block {
+	margin-top:15px;
+	min-height: 150px;
+	height:100%;
+	background-color:black;
+	color:white;
+	border-radius: calc(.25rem - 1px);
+	border: 2px solid white;
+}
+
+@media screen and (max-width: 992px) {
+	:host /deep/ .lorawan-card-img-top {
+	max-height:325px;
+}
+}*/

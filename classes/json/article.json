@@ -1,0 +1,30 @@
+[
+    {
+        "link": "sap",
+        "image": "sap_1.png",
+        "title":"This is SAP",
+        "content": "It is a really nice technology ",
+        "notes": ""
+    },
+    {
+        "link": "modern_applikations_utveckling",
+        "image": "",
+        "title":"Modern applikationsutveckling",
+        "content": "<h3>Gör er redo för molnet</h3><br> \n\n <h3>Introduktionsutbildning</h3><br> \n\n <h3>2 tim stöd efter kursen ingår</h3><br> \n\n <p>Lär er de nya teknikerna som gör det möjligt att kraftigt kapa tider och kostnader för att ta fram och underhålla IT-lösningar.</p> \n\n <p>Halvdag (ca 4 timmar) den 17e maj 2017. Start kl 13.00 Ideon, Lund </p> \n\n <br><br><strong>Syfte</strong> \n\n <ul> <li>Upptäck möjligheterna och potentialen med webbteknik i modern applikationsutveckling. Se hur detta kan användas i molnlösningar.</li> </ul> \n\n <br><strong>Målgrupp</strong> \n\n <ul> <li>IT-arkitekter</li> <li>Projektledare inom IT-utveckling</li> <li>Utvecklare som är nya inom webbteknik</li> </ul> \n\n <br><strong>Mål</strong> \n\n <ul>  <li>Få en introduktion till arkitekturen och verktygslådan för modern applikationsutveckling.</li> <li>Få prova enklare praktiska övningar, som sedan på egen hand kan göras mer avancerade.</li> <li>Konkret förstå hur man ska gå vidare och utvärdera tekniken i sin egen organisation.</li> </ul> \n\n <br><strong>Förkunskaper</strong> \n\n <ul> <li>Inga särskilda kunskaper i programmering behövs.</li> <li>Fördel om erfarenhet av applikationsutveckling finns.</li></ul> \n\n <br><strong>Mål</strong> \n\n <ul> <li>HTML5 och den moderna webben</li><li>Appar och Webbappar</li><li>JavaScript</li><li>AngularJS, Bootstrap och kort om andra ramverk</li><li>JSON och RESTful API</li><li>Backendlösningar för den moderna webben</li><li>Använda molnet istället för egna servrar</li><li>Webben och framtiden</li><li>Molnet och webben skapar nytt arbetssätt</li></ul> \n\n <br><strong>2 tim stöd efter kursen ingår</strong> \n\n <p>Deltagare erhåller upp till 2 timmar stöd efter kursen.</p> \n\n <p>Stöd på distans</p> \n\n <p>Måste utnyttjas inom 30 dagar efter kurstillfället</p> \n\n <br><strong>Utbildare</strong> \n\n <p>Andreas Ohlsson</p> \n\n <img src='images/andreas_ohlsson.jpg' style='height:140px; width:140px;'> \n\n <p>Professionell utbildare inom IT och ekonomi i nästan 10 år. Arbetat med IT, affärssystem och systemutveckling i snart 20 år. Lösningsarkitekt och evangelist för modern webbteknik inom applikationsutveckling.</p> \n\n <p>Pris: 4.000 SEK / deltagare</p><br> \n\n <p>Det är möjligt att medtaga egen dator. Ett begränsat antal lånedatorer finns också.</p> \n\n <h2>Anmälan</h2> \n\n <h4>Senaste anmälningsdag 2017-05-02</h4> \n\n <p>Anmälan på telefon: 046-2862410</p> \n\n <p>Anmälan på e-post till info@q2d.se eller klicka på länken nedan.</p> \n\n <a href='#'>Skicka Epost…</a> \n\n",
+        "notes": ""
+    },
+     {
+        "link": "utbildning",
+        "image": "utbildning.jpg",
+        "title":"Utbildning",
+        "content": "<p>Vi utbildar er personal att arbeta med vår teknik.</p> \n\n <p>Utbildningen sker delvis på plats men också med support och uppgifter på distans.<p> \n\n <p>Många företag och organisationer har duktiga programmerare anställda och är inte i akut behov att ta in externa resurser. Vi kan erbjuda inspiration och fördjupad kunskap i modern applikationsutveckling som ett utbildningspaket.</p> \n\n <p>Vi har arbetat med vårt tekniska koncept i snart 3 år och kan således dela med oss av den erfarenheter och kunskap vi har byggt upp.</p> \n\n <p>För de fördjupande utbildningarna ser vi gärna att deltagarna redan har goda kunskaper inom webbutveckling och förståelse för de krav som ställs på en affärsapplikation (kundportal, e-handel osv).</p> \n\n <p>Eftersom arkitekturen i vår tekniklösning består av flera lager går det att bryta ut den del som är mest relevant för deltagaren: Användargränssnitt (UI/UX), API och Integration.</p> \n\n <p>Pris: från 4.000 SEK/deltagare, beroende på omfattning och förkunskaper.</p> \n\n",
+        "notes": ""
+    },
+    {
+        "link": "prog_coach_och_arkitekt",
+        "image": "",
+        "title":"Programmeringscoach och arkitektbollplank",
+        "content": "<p>Vi utbildar er personal att arbeta med vår teknik.</p> \n\n <p>Utbildningen sker delvis på plats men också med support och uppgifter på distans.<p> \n\n <p>Många företag och organisationer har duktiga programmerare anställda och är inte i akut behov att ta in externa resurser. Vi kan erbjuda inspiration och fördjupad kunskap i modern applikationsutveckling som ett utbildningspaket.</p> \n\n <p>Vi har arbetat med vårt tekniska koncept i snart 3 år och kan således dela med oss av den erfarenheter och kunskap vi har byggt upp.</p> \n\n <p>För de fördjupande utbildningarna ser vi gärna att deltagarna redan har goda kunskaper inom webbutveckling och förståelse för de krav som ställs på en affärsapplikation (kundportal, e-handel osv).</p> \n\n <p>Eftersom arkitekturen i vår tekniklösning består av flera lager går det att bryta ut den del som är mest relevant för deltagaren: Användargränssnitt (UI/UX), API och Integration.</p> \n\n <p>Pris: från 4.000 SEK/deltagare, beroende på omfattning och förkunskaper.</p> \n\n",
+        "notes": ""
+    }
+]

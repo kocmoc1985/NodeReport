@@ -1,0 +1,33 @@
+<a name="{{LINK}}"></a> <!-->#ANCHOR<-->
+
+<div class="{{LINK}} page">
+
+    <div class="container-fluid" *ngIf="content">
+
+        <span *ngFor="let entry of content">
+
+            <span *ngIf="!entry.hidden">
+                
+                
+
+                <span *ngIf="lang === 'swe' || !lang || !entry.contenteng">
+                    <span *ngIf="entry.css" [innerHTML]="(entry.css + '' + entry.content) | safeHtml"></span>
+
+                    <span *ngIf="!entry.css" [innerHTML]="(entry.content) | safeHtml"></span>
+                </span>
+                
+                
+                
+                <span *ngIf="lang === 'eng'">
+                    <span *ngIf="entry.css" [innerHTML]="(entry.css + '' + entry.contenteng) | safeHtml"></span>
+
+                    <span *ngIf="!entry.css" [innerHTML]="(entry.contenteng) | safeHtml"></span>
+                </span>
+
+            </span>
+
+        </span>
+
+    </div>
+
+</div>

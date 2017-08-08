@@ -1,0 +1,6 @@
+
+Index.html ----> {<my-app> (app.component.ts)}
+
+app.component.ts (<my-app>) ----> {<app-header>, <router-outlet>, <app-footer>, <app-modal>}
+
+app-routing.module.ts ----> {MainComponent<app-main>, LoginComponent, AdminComponent, ArticleComponent}
